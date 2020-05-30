@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence cs, int arg1, int arg2, int arg3) {
                 // When user changed the Text
-                MainActivity.this.mAdapter.getFilter().filter(cs);
+                mAdapter.getFilter().filter(cs);
             }
 
             @Override
